@@ -3,6 +3,13 @@
 #define OUTFILE "/home/weisja15/CLionProjects/Assignment2pt2/OUTFILE.txt"
 using namespace std;
 
+// This program allows you roll two die until doubles are rolled
+// The sum of the two die until doubles are rolled are calculated and so is the number of rolls it took to get doubles
+// These two values are outputted to a text file and have been plotted in rollData.jpg
+// The total number of rolls of dice are calculated in total rolls 
+// Counts for two-die roll counts is the number of times each sum has appeared from the dice
+// ex. the first number is the number of times 2 has been rolled and then three etc
+
 int main() {
     int rSeed, numTrials, numSides, i;
     int roll1 =0;
