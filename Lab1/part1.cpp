@@ -81,7 +81,7 @@ int main() {
     }
 
     //calculates the average difference of the primes
-    // **note** to calculate the actual difference I would have to convert this type to a
+    // **note** to calculate the actual average I would have to convert this type to a
     // double but in the assignment he does not so I left this as an int
     primeDiffAvg = totalDiff/numPrimes;
 
