@@ -49,6 +49,9 @@ int main() {
             }
         }
 
+        //pirints to a file the number of rolls it took for the two die to have
+        //the same value, and the sum of the values of the die up until they where
+        //the same
         if (numRolls == 1){ // this is for the 0 case, so if they are the same on first roll
             outFS << '1' << ", " << '0' << endl;
         }
