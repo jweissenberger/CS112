@@ -2,7 +2,7 @@
 #include <math.h>
 using namespace std;
 
-// NAME: Professor Sai Mukkavilli
+// NAME: Jack Weissenberger
 // LAB: CSC 112 Lab #1 - Part 0
 
 // Determine primes; calculate # primes, %primes, max prime, avg distance between primes.
