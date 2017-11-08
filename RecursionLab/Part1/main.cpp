@@ -1,3 +1,6 @@
+//Jack Weissenberger
+// This program recursively solves the tower of Hanoi using the recursive method move_discs
+
 #include <iostream>
 using namespace std;
 
