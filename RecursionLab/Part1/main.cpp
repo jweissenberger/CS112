@@ -23,7 +23,7 @@ void move_discs(int numDiscs, char Tower1, char Tower2, char Tower3, int &numMov
     cout<<"Move disc "<< numDiscs <<" from "<< Tower1 <<" to "<< Tower2 <<endl;
 
     //second recursive call that moves to tower 3
-    move_discs(numDiscs - 1, Tower3, Tower3, Tower1, numMoves);
+    move_discs(numDiscs - 1, Tower3, Tower2, Tower1, numMoves);
 
     //keeps track of the number of moves
     numMoves++;
