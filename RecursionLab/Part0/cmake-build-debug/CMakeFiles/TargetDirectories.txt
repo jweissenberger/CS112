@@ -1,0 +1,3 @@
+C:/Users/weisja15/Documents/GitHub/CS112/RecursionLab/Part0/cmake-build-debug/CMakeFiles/Part0.dir
+C:/Users/weisja15/Documents/GitHub/CS112/RecursionLab/Part0/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/weisja15/Documents/GitHub/CS112/RecursionLab/Part0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
