@@ -3,6 +3,7 @@
 //
 
 #include "Recur_Fun.h"
+#include <cstring>
 #include <string>
 using namespace std;
 
@@ -21,7 +22,6 @@ string Recur_Fun::str_rev(string inStr) {
 }
 
 //starts with the last value of the vector and then iterates down
-// THIS DOES NOT WORK****** OUTPUTS A STRANGE RANDOM NEGATIVE VALUE
 int Recur_Fun::list_max(vector<int> inList, int i, int & maxVal) {
 
     if (i != inList.size()){
@@ -63,15 +63,21 @@ bool Recur_Fun::palin(string usrIn) {
     }
 }
 
-/*bool Recur_Fun::find_sub(string big, string small) {
+//outputs a non zero value if the substring exists, outputs 0 if it does not exist
+int Recur_Fun::find_sub(string big, string small, int &i) {
     int bigLen = big.size();
     int smallLen = small.size();
-    if (small != big.substr((bigLen-smallLen-1), (bigLen-1))){
-        big.pop_back();
-        find_sub(big, small);
+
+    if (small == big.substr(i, smallLen)){
+        return 1;
     }
-    else{
-        return true;
+
+    if (i < bigLen) {
+        find_sub(big, small, ++i);
     }
+
+    if (i == bigLen){
+        return 0;
+    }
+
 }
-*/

@@ -14,7 +14,7 @@ public:
     string str_rev(string inStr); // initialize the reverse string function
     int list_max(vector<int> inList, int i, int &maxVal);
     bool palin(string usrIn);
-    bool find_sub(string big, string small);
+    int find_sub(string big, string small, int &i);
 };
 
 
