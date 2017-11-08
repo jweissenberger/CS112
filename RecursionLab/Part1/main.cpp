@@ -13,7 +13,7 @@ void move_discs(int numDiscs, char Tower1, char Tower2, char Tower3, int &numMov
     //base case, when there is only one disc
     if (numDiscs == 1) {
         cout << "Move disc 1 from " << Tower1 <<" to "<< Tower2 <<endl;
-        ++numMoves;
+        numMoves++;
         return;
     }
 
@@ -26,7 +26,7 @@ void move_discs(int numDiscs, char Tower1, char Tower2, char Tower3, int &numMov
     move_discs(numDiscs - 1, Tower3, Tower3, Tower1, numMoves);
 
     //keeps track of the number of moves
-    ++numMoves;
+    numMoves++;
 }
 
 
