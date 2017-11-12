@@ -1,0 +1,3 @@
+C:/Users/weisja15/Documents/GitHub/CS112/PointersLab/cmake-build-debug/CMakeFiles/PointersLab.dir
+C:/Users/weisja15/Documents/GitHub/CS112/PointersLab/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/weisja15/Documents/GitHub/CS112/PointersLab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
