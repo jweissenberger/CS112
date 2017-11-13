@@ -62,7 +62,14 @@ void foo2(int dummy){
 
 }
 
+void PrintArray2(){
+    int array1[10];
+    int* array2 = new int[10];
+    cout << array1 << endl; // line 3
+    cout << array2 << endl; // line 4
+    delete [] array2;
 
+}
 
 
 int main() {
@@ -71,6 +78,7 @@ int main() {
     //printArrayInformation();
     //foo1(10);
     //foo2(10);
+    PrintArray2();
 
     return 0;
 }
