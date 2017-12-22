@@ -1,4 +1,4 @@
-// Jack Weissenberger, recursion lab
+// Jack Weissenberger, pointers lab
 
 #include <iostream>
 using namespace std;
